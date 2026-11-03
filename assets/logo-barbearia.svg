@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" role="img" aria-labelledby="title">
+  <title id="title">Navalha Nobre</title>
+  <circle cx="64" cy="64" r="60" fill="#171715" stroke="#d7b16f" stroke-width="3"/>
+  <path d="M48 28h32v9H48zM48 91h32v9H48z" fill="#d7b16f"/>
+  <path d="M52 37h24v54H52z" fill="#f0ece4"/>
+  <path d="m52 43 12-6h12L52 55zm0 18 24-12v12L52 73zm0 18 24-12v12l-16 8H52z" fill="#a84438"/>
+  <path d="M43 24 30 18M85 24l13-6" fill="none" stroke="#d7b16f" stroke-width="4" stroke-linecap="round"/>
+</svg>
