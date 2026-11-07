@@ -1092,6 +1092,15 @@ export function initAgendaTab() {
         }
     });
 
+    if (dataFiltro && !dataFiltro.value) {
+        const firstBookingDay = new Date();
+        firstBookingDay.setDate(firstBookingDay.getDate() + 1);
+        while (firstBookingDay.getDay() === 0 || firstBookingDay.getDay() === 6) firstBookingDay.setDate(firstBookingDay.getDate() + 1);
+        const yyyy = firstBookingDay.getFullYear();
+        const mm = String(firstBookingDay.getMonth() + 1).padStart(2, "0");
+        const dd = String(firstBookingDay.getDate()).padStart(2, "0");
+        dataFiltro.value = `${yyyy}-${mm}-${dd}`;
+    }
     (async () => {
         try {
             await fillHoraFiltroDynamic({ keepSelection: true });
