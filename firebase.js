@@ -352,7 +352,7 @@ function setupAuthGate() {
 setupAuthGate();
 
 /* ========= Estado compartilhado ========= */
-export const BOOKING_URL = "https://site-salaobeleza-vt.vercel.app/"; // link do site de agendamento externo
+export const BOOKING_URL = "https://barbeariacliente.vercel.app/"; // link do site de agendamento externo
 
 export const PAYMENT_METHODS = [
   "PIX",
